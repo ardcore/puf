@@ -8,7 +8,7 @@ usage:
 	  console.log(a + b + c);
 	})
 
-	// another subscribent
+	// another subscriber
 	puf.subscribe('foo', function(a, b, c) {
 	  console.log(a - b - c);
 	})
